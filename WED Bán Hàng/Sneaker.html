@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link ref="stylesheet" href="../WED Bán Hàng/Css/Sneaker.css">
+    <title>Sneaker</title>
+    <style>
+        body {
+          margin:0;
+         }
+        #div-pro-list{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         }
+        .box-pro{
+         height: 350px;
+         width:300px;
+         }
+        .size-img{
+         height:180px;
+         width:auto;
+         margin-left: 30px;
+         margin-top:10px;
+         }
+        .box-description{
+         height: 100px;
+         width:auto;
+         background-color: rgb(251, 248, 248);
+         margin-left:20px;
+         margin-top:10px;
+         }
+        .margin-des{
+          margin-left: 10px;
+         padding-top:5px;
+         }
+        .box-pro{
+         margin:auto;
+         margin-top:10px;
+         }
+         .phai{
+            text-align: right;
+            font-size: 30px;
+         }
+         .vohang{
+            text-align: right;
+            margin-right: 80px;
+         }
+         .nen a{
+            display: block;
+            color: #0f0d0d;
+            padding: 14px 16px;
+            text-decoration: none;
+
+         }
+            .nen a:hover {
+            background-color: #d6dfde;
+            color:rgb(255, 140, 0);
+           
+            }
+            #search-box{
+            background: rgb(241, 204, 59);
+            padding: 5px 5px 5px 5px;
+        }
+        #search-box #search-text{
+            border: none;
+            outline: none;
+            background: none;
+            font-size: 18px;
+            width:0;
+            padding:0;
+            transition: all 0.25s ease-in-out;
+        }
+        #search-box:hover #search-text,  #search-box #search-text:valid {
+            width:300px;
+            padding: 10px 0px 10px 15px;
+
+        }
+        #search-box #search-btn{
+            background-color: rgb(255, 255, 255);
+            border: none;
+            padding: 15px 15px;
+            border-radius: 50px;
+            font-size: 18px;
+        }
+        .timkiem{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body style="margin:0">
+    <div>
+        <div style="background-color:rgb(237, 150, 11); width:100%; height: 200px; clear:both ">
+            <div class="phai">
+                <a href="DangKy.html"><button style="background-color:rgb(237, 150, 11)">Đăng Ký</button></a>
+                <a>|</a>
+                <a href="dangnhap.html"><button style="background-color:rgb(237, 150, 11)">Đăng Nhập</button></a>
+            </div>
+            <br>
+            <div class="vohang">
+                <a href="Vỏ Hàng">
+                 <img width="30" src="/WED Bán Hàng/images/vỏ hàng.png"/>
+                </a>
+            </div>
+            <div class="logo">
+                <img width="150" src="/WED BÁN HÀNG/images/logo..png">
+            </div>
+        </div>
+        <div>
+            <from class="timkiem" action="" id="search-box">
+                <input type="text" id="search-text" placeholder="Bạn muốn tìm gì gõ vào đây" required>
+                <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+             </from>
+        </div>
+        <div class="nen" style="width:20%; height:4000px; background-color:rgba(229, 189, 9, 0.962);float:left">
+            <div id="div-top">
+            </div>
+            <div id="div-main">
+                <div id="div-left">
+                    <h3>Danh Mục Sản Phẩm</h3>
+                    <ul style="list-style:none;">
+                        <li><a href="Trangchu.html">Trang chủ</a></li>
+                        <li><a href="Sneaker.html">Sneaker</a></li>
+                        <li><a href="Dungcuthethao.html">Dụng cụ thể thao</a></li>
+                        <li><a href="CLOTHES.html">Clothes</a></li>
+                        <li><a href="Phukien.html">Phụ kiện Sneaker</a></li>
+                    </ul>
+                </div>
+                <div id="div-containt">
+                </div>
+            </div>
+            <div id="div-footer"></div>
+        </div>
+        <div style="width:80%;height:4000px; background-color:rgb(50, 234, 234); float:right">
+            <h2 style="text-align:center;">Danh sách sản phẩm</h2>
+<div id="div-pro-list">
+        <div class="box-pro">
+            <img width="100" src="../WED Bán Hàng/images/đôi số 1.png" class="size-img" />
+            <div class="box-description">
+                <p class="margin-des">Mã SP: N15</p>
+                <p class="margin-des">Tên SP: Nike KD 15 'Brooklyn Nets'</p>
+                <p class="margin-des">Giá: 10.000.000</p>
+            </div>
+        </div>
+        <div class="box-pro">
+            <img width="100" src="../WED Bán Hàng/images/đôi số 2.png" class="size-img" />
+            <div class="box-description">
+                <p class="margin-des">Mã SP: L19H</p>
+                <p class="margin-des">Tên SP: LeBron 19 Hard Hat 'Yellow'</p>
+                <p class="margin-des">Giá: 10.000.000</p>
+            </div>
+        </div>
+        <div class="box-pro">
+            <img width="100" src="../WED Bán Hàng/images/đôi số 3.png" class="size-img" />
+            <div class="box-description">
+                <p class="margin-des">Mã SP: L19V</p>
+                <p class="margin-des">Tên SP: Lebron 19 ' Valentine</p>
+                <p class="margin-des">Giá: 10.000.000</p>
+            </div>
+        </div>
+        <div class="box-pro">
+            <img width="100" src="../WED Bán Hàng/images/đôi số 4.png" class="size-img" />
+            <div class="box-description">
+                <p class="margin-des">Mã SP: KL4</p>
+                <p class="margin-des">Tên SP: Kyrie Low 4</p>
+                <p class="margin-des">Giá: 10.000.000</p>
+            </div>
+        </div>
+        <div class="box-pro">
+            <img width="100" src="../WED Bán Hàng/images/đôi số 5.png" class="size-img" />
+            <div class="box-description">
+                <p class="margin-des">Mã SP: NK5</p>
+                <p class="margin-des">Tên SP: Nike Kobe 5 Hall Off Fame</p>
+                <p class="margin-des">Giá: 10.000.000</p>
+            </div>
+        </div>
+        <div class="box-pro">
+            <img width="100" src="../WED Bán Hàng/images/đôi số 6.png" class="size-img" />
+            <div class="box-description">
+                <p class="margin-des">Mã SP: NK6</p>
+                <p class="margin-des">Tên SP: Nike Kobe 6 Protro Think Pink</p>
+                <p class="margin-des">Giá: 10.000.000</p>
+            </div>
+        </div>
+        <div class="box-pro">
+            <img width="100" src="../WED Bán Hàng/images/đôi số 7.png" class="size-img" />
+            <div class="box-description">
+                <p class="margin-des">Mã SP: NK8</p>
+                <p class="margin-des">Tên SP: Nike Kobe 8 All-Star Area 72</p>
+                <p class="margin-des">Giá: 10.000.000</p>
+            </div>
+        </div>
+        <div class="box-pro">
+            <img width="100" src="../WED Bán Hàng/images/đôi số 8.png" class="size-img" />
+            <div class="box-description">
+                <p class="margin-des">Mã SP: NK5</p>
+                <p class="margin-des">Tên SP: Nike Kobe 5 Bruce Lee</p>
+                <p class="margin-des">Giá: 10.000.000</p>
+            </div>
+        </div>
+        <div class="box-pro">
+            <img width="100" src="../WED Bán Hàng/images/đôi số 9.png" class="size-img" />
+            <div class="box-description">
+                <p class="margin-des">Mã SP: NK8I</p>
+                <p class="margin-des">Tên SP: Nike Kyrie 8 Infinity Ky-D</p>
+                <p class="margin-des">Giá: 10.000.000</p>
+            </div>
+        </div>
+        <div class="box-pro">
+            <img width="100" src="../WED Bán Hàng/images/đôi số 10.png" class="size-img" />
+            <div class="box-description">
+                <p class="margin-des">Mã SP: N15E</p>
+                <p class="margin-des">Tên SP: Nike KD 15 EP Bright</p>
+                <p class="margin-des">Giá: 10.000.000</p>
+            </div>
+        </div>
+        <div class="box-pro">
+            <img width="100" src="../WED Bán Hàng/images/đôi số 11.png" class="size-img" />
+            <div class="box-description">
+                <p class="margin-des">Mã SP: N15P</p>
+                <p class="margin-des">Tên SP: Nike KD 15 Pink Royal</p>
+                <p class="margin-des">Giá: 10.000.000</p>
+            </div>
+        </div>
+        <div class="box-pro">
+            <img width="100" src="../WED Bán Hàng/images/đôi số 12.png" class="size-img" />
+            <div class="box-description">
+                <p class="margin-des">Mã SP: N5DD</p>
+                <p class="margin-des">Tên SP: Nike Kobe 5 DeMar DeRozan</p>
+                <p class="margin-des">Giá: 10.000.000</p>
+            </div>
+        </div>
+    <!--...-->
+</div>
+        </div>
+        <div style="background-color:rgb(242, 4, 214);width:100%; height:50px;clear:both">Footer</div>
+    </div>
+</body>
+</html>
